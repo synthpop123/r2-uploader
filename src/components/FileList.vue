@@ -362,7 +362,7 @@ function clearSelection() {
 }
 
 let dirMap = ref({})
-let seeFolderStructure = ref(true)
+let seeFolderStructure = ref(false)
 let reconstructing = ref(false)
 
 async function parseDirs(file) {

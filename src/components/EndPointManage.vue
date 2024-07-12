@@ -87,7 +87,7 @@ let apiKey = ref('')
 let btnText = ref('Save To LocalStorage')
 let btnDisabled = ref(false)
 let endPointList = ref([])
-let panelOpen = ref('1')
+let panelOpen = ref('0')
 let customDomain = ref('')
 
 let newEndpoint = ref('')
